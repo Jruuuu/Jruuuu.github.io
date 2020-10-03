@@ -67,9 +67,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/*I moved all content that relate together*/
-/*This area is for the style of class=search-engine-optimization*/
-.search-engine-optimization {
+/*I consolidated article andleft  the class just incase future devs wanted to utilize the class*/
+
+article section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -77,54 +77,17 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-.search-engine-optimization img {
+article img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+article h2 {
     margin-bottom: 10px;
     font-size: 36px;
 }
 
-/*This area is for the style of class=online-reputation-management*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*This is the style area for class=social-media-marketing*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*This is the aside of the website class benefits*/
-.benefits {
+/*This is the aside of the website which has the content of benefits, consildated all the items with aside tag and kept the class in case a future devloper wants to add or change something specific*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -135,56 +98,23 @@ p {
     background-color: #2589bd;
 }
 
-/*This is the style area for the aside class=benefit-lead*/
-.benefit-lead {
+
+aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*This is the style area is for the aside class=benefit-brand*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*This is the style area for the aside class=benefit-cost*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
 /*This is the footer of the page*/
 footer {
