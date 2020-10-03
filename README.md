@@ -18,4 +18,4 @@
 Html semantics
     https://www.w3schools.com/html/html5_semantic_elements.asp
 
-Link to website https://jruuu.github.io
+Link to website https://jruuuu.github.io/
