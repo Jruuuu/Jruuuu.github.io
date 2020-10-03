@@ -99,17 +99,17 @@ aside {
 }
 
 
-aside {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-aside h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
