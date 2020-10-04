@@ -20,4 +20,4 @@ Html semantics
 
 Link to website https://jruuuu.github.io/
 #### EXAMPLE of what the website provided
-![Screen shoot of example](develop/.example.png)
+![Screen shoot of example](develop/example.png)
