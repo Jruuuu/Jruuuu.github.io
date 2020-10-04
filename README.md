@@ -19,5 +19,5 @@ Html semantics
     https://www.w3schools.com/html/html5_semantic_elements.asp
 
 Link to website https://jruuuu.github.io/
-#### EXAMPLE of what the website provided
+#### EXAMPLE of what the website should look like
 ![Screen shoot of example](develop/example.png)
