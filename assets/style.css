@@ -1,9 +1,9 @@
 
 /*BG COLOR OF THE BRAND*/
-.navbar-brand{
+/* .navbar-brand{
     font-family: 'Shrikhand', cursive;
     background-color: rgb(17, 187, 150);
-}
+} */
 /*back ground */
 body{
     background-image: url(../assets/images/bodybg.jpg);
@@ -11,7 +11,8 @@ body{
     overflow: auto;
 }
 h1{
-    color:rgb(17, 187,150)
+    color:rgb(17, 187,150);
+    font-family: 'Shrikhand', cursive;
 }
 /*make sure about me image is certain size*/
 p img{
@@ -35,7 +36,7 @@ p img{
 img{
     width: 300px;
     height: 300px;
-    opacity: .5;
+    opacity: .75;
     padding: 10px;
 }
 img:hover{
@@ -44,6 +45,11 @@ img:hover{
 
 footer{
     color: white;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
 }
 a{
     color: white;
