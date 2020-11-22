@@ -1,17 +1,18 @@
 # Responsive Portfolio
 **Version 1.0.0**
-### In this Repo we were tasked to create a Responsive Portfolio from scratch. Using Bootstrap with a navbar, a responsive layout, and responsive images. Screen shoots of what the end result of my Responsive Portfolio should look like.
+### In this Repo we were tasked to Update our Web Developer Portfolio
 --- 
 ## TASKING
-- [X] FUNCTIONAL, DEPLOYED APPLICATION
-- [X] README
-- [X] CONSISTENT NAVBAR ON EACH PAGE
-- [X] NAVBAR LINKS WORK
-- [X] ALL LINKS WORK
-- [X] SEMANTIC HTML
-- [X] EACH PAGE HAS VALID AND CORRECT HTML.
-- [X] MUST CONTAIN PERSONALIZED INFORMATION
-- [X] PROPERLY UTLIZE BOOTSRAP COMPONENTS AND GRAID SYSTEM
+- [X] Mobile First Design
+- [X] Display Full Name, Email, and Phone Number
+- [X] Links to Github and LinkedIn Profiles
+- [X] Downloadable Resume
+- [X] 5 Examples of Deployed Projects or Homework
+- [X] Mobile Responsive Interface
+- [X] Updated Github Profile.
+- [X] Updated LinkedIn Profile
+
+<a href="https://jruuuu.github.io/">***Enrilo Ugalde Portofolio***</a>
 ---
 ## LICENSE & COPYRIGHT
 BOOTSTRAP LICENSE
