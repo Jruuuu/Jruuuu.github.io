@@ -1,0 +1,40 @@
+
+/*BG COLOR OF THE BRAND*/
+.navbar-brand{
+    font-family: 'Shrikhand', cursive;
+    background-color: rgb(17, 187, 150);
+}
+/*back ground */
+body{
+    background-image: url(../assets/images/bodybg.jpg);
+    background-size: cover;
+    overflow: auto;
+}
+h1{
+    color:rgb(17, 187,150)
+}
+/*make sure about me image is certain size*/
+p img{
+    max-height: 250px;
+    max-width: 200px;
+}   
+/*created a container class to style and make bg white*/
+.container{
+    background-color: white;
+    padding-bottom: 25px;
+    float: left;
+    margin-top:30px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    color: white;
+}
