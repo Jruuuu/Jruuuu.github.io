@@ -11,8 +11,9 @@ body{
     overflow: auto;
 }
 h1{
-    color:rgb(17, 187,150);
+    color:rgb(7, 179, 209);
     font-family: 'Shrikhand', cursive;
+    
 }
 /*make sure about me image is certain size*/
 p img{
