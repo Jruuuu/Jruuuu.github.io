@@ -7,8 +7,12 @@
 /*back ground */
 body{
     background-image: url(../assets/images/bodybg.jpg);
-    background-size: cover;
+    background-size:cover;
     overflow: auto;
+}
+nav a{
+    font-family: 'Shrikhand', cursive;
+    color:rgb(7, 179, 209);
 }
 h1{
     color:rgb(7, 179, 209);
