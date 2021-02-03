@@ -82,7 +82,7 @@ iframe{
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 110%;
+    width: 120%;
 }
 .container{
     color: rgba(24, 156, 179);
@@ -110,7 +110,7 @@ h2 span{
 .text2{
     font-size:25px;
     font-weight: 250;
-    animation: text 2s 1;
+    animation: text 3s 1;
 }
 
 @keyframes text{
