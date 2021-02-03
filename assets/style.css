@@ -67,7 +67,12 @@ footer img{
 a{
     color: white;
 }
-
+iframe{
+    position: relative;
+    width:800px;
+    height:1000px;
+    left: 10%;    
+}
 
 .welcome{
    background-color:  rgba(24, 156, 179, 0);
