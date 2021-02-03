@@ -68,10 +68,11 @@ a{
     color: white;
 }
 iframe{
-    position: relative;
+    position: absolute;
     width:800px;
     height:1000px;
-    left: 10%;    
+    left: 10%;
+    top: 18%;    
 }
 
 .welcome{
