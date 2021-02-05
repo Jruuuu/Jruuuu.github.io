@@ -51,7 +51,7 @@ p img{
 }
 img:hover{
     opacity: 1.0;
-    background-color: none;
+    background-color:#75bbb9;
 }
 
 footer{
