@@ -2,7 +2,7 @@
    "homepage": "https://Jruuuu.github.io",
    "name": "portfolio2",
    "version": "0.1.0",
-   "private": true,
+   "private": false,
    "dependencies": {
       "axios": "^0.21.1",
       "bootstrap": "^4.6.0",
