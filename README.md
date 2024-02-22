@@ -1,21 +1,21 @@
-# Responsive Portfolio
-**Version 1.0.0**
-### In this Repo we were tasked to Update our Web Developer Portfolio
+# React Portfolio
+**Version 2.0.0**
+### In this Repo we were tasked to Update our Web Developer Portfolio using <img src="src\assets\images\React.svg">
 --- 
 ## TASKING
 - [X] Mobile First Design
 - [X] Display Full Name, Email, and Phone Number
 - [X] Links to Github and LinkedIn Profiles
-- [X] Downloadable Resume
+- [ ] Downloadable Resume
 - [X] 5 Examples of Deployed Projects or Homework
 - [X] Mobile Responsive Interface
 - [X] Updated Github Profile.
 - [X] Updated LinkedIn Profile
 
-<a href="https://jruuuu.github.io/">***Enrilo Ugalde Portfolio***</a>
+<a href="https://jruuuu.github.io/reactPortfolio/">***Enrilo Ugalde Portfolio***</a>
 ---
 ## LICENSE & COPYRIGHT
-BOOTSTRAP LICENSE
+REACT-BOOTSTRAP LICENSE
 https://github.com/twbs/bootstrap/blob/v4.5.2/LICENSE
 The MIT License (MIT)
 
@@ -44,22 +44,4 @@ THE SOFTWARE.
 ----
 ### LINKS
 BODY BG provided by Vecteezy.com
-#### EXAMPLE of What my Responsive Portfolio should look like.
 
-<img src="assets/images/samples/400-contact.png" alt="400 contact" title="400 contact" width="250px" height="300px"/>
-
-<img src="assets/images/samples/400-index.png" alt="400 index" title="400 index" width="250px" height="300px"/>
-
-<img src="assets/images/samples/400-portfolio.png" alt="400 portfolio" title="400 portfolio" width="250px" height="300px"/>
-
-<img src="assets/images/samples/768-contact.png" alt="768 contact" title="768 contact" width="250px" height="300px"/>
-
-<img src="assets/images/samples/768-index.png" alt="768 index" title="768 index" width="250px" height="300px"/>
-
-<img src="assets/images/samples/768-portfolio.png" alt="768 portfolio" title="768 portfolio" width="250px" height="300px"/>
-
-<img src="assets/images/samples/992-contact.png" alt="992 contact" title="992 contact" width="250px" height="300px"/>
-
-<img src="assets/images/samples/992-index.png" alt="992 index" title="992 index" width="250px" height="300px"/>
-
-<img src="assets/images/samples/992-portfolio.png" alt="992 portfolio" title="992 portfolio" width="250px" height="300px"/>
