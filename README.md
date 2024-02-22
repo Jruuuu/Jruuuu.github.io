@@ -12,7 +12,7 @@
 - [X] Updated Github Profile.
 - [X] Updated LinkedIn Profile
 
-<a href="https://jruuuu.github.io/">***Enrilo Ugalde Portfolio***</a>
+<a href="https://jruuuu.github.io">***Enrilo Ugalde Portfolio***</a>
 ---
 ## LICENSE & COPYRIGHT
 REACT-BOOTSTRAP LICENSE
