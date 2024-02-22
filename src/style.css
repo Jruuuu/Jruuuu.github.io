@@ -1,0 +1,13 @@
+.About{
+    margin-top: 1000px;
+    margin-bottom: 100px;
+}
+.Portfolio{
+    margin-top: 700px;
+    margin-bottom: 100px;
+}
+body{
+    background-image: url(assets/images/bodybg.jpg);
+    background-position: top;
+    background-size: contain;
+}
