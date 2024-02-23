@@ -1,4 +1,11 @@
 p img{
-    max-height: 250px;
+    max-height: 400px;
     max-width: 200px;
+}
+
+p {
+   font-size: 12.5px;
+}
+.content{
+    background-color: rgba(253, 252, 249, 0.603);
 }
