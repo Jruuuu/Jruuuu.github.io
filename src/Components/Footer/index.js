@@ -1,19 +1,15 @@
 import "react-bootstrap";
-import "./style.css"
+import "./style.css";
 import gitHubIcon from "../../assets/images/GitHub-Mark-Light-32px.png";
 import linkedInIcon from "../../assets/images/LI-In-Bug.png";
 import instgramIcon from "../../assets/images/Instagram.png";
-
-
-
-
 
 function App() {
   return (
     <footer className="footer text-center fixed-bottom mt-auto">
       <div className="mt-1 navbar-dark bg-light">
-        <footer className="footer-copyright my-auto">  Copyright
-
+        <footer className="footer-copyright my-auto">
+          <a>copyright © 2024</a>
 
           <a
             className="navbar-brand"
@@ -21,26 +17,16 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-
-          <img
-            src={gitHubIcon}
-            alt="github icon"
-            loading="lazy"
-            ></img>
-            </a>
+            <img src={gitHubIcon} alt="github icon" loading="lazy"></img>
+          </a>
           <a
             className="navbar-brand"
             href="https://www.linkedin.com/in/enrilo-ugalde"
             target="_blank"
             rel="noopener noreferrer"
           >
-
-          <img
-            src={linkedInIcon}
-            alt="linkedin icon"
-            loading="lazy"
-            ></img>
-            </a>
+            <img src={linkedInIcon} alt="linkedin icon" loading="lazy"></img>
+          </a>
           <a
             className="navbar-brand"
             href="https://www.instagram.com/jruuuu"
@@ -48,12 +34,8 @@ function App() {
             rel="noopener noreferrer"
           >
             {" "}
-          <img
-            src={instgramIcon}
-            alt="instagram icon"
-            loading="lazy"
-            ></img>
-            </a>
+            <img src={instgramIcon} alt="instagram icon" loading="lazy"></img>
+          </a>
         </footer>
       </div>
     </footer>

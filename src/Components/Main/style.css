@@ -55,12 +55,12 @@ h2 span{
  }
  button{
     background-color: transparent;
-    border: dotted;
+    /* border: dotted; */
     border-color: rgba(24, 156, 179);
     
 }
 button svg{
-    color: rgba(24, 156, 179);
+    color: rgb(0, 0, 0);
 }
 .dropdown{
     position: relative;
