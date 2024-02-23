@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9dc7321c.chunk.css",
-    "main.js": "/static/js/main.236856bf.chunk.js",
-    "main.js.map": "/static/js/main.236856bf.chunk.js.map",
+    "main.js": "/static/js/main.51557d2f.chunk.js",
+    "main.js.map": "/static/js/main.51557d2f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c33777ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.c33777ad.js.map",
     "static/css/2.44d809a4.chunk.css": "/static/css/2.44d809a4.chunk.css",
@@ -12,20 +12,11 @@
     "static/css/2.44d809a4.chunk.css.map": "/static/css/2.44d809a4.chunk.css.map",
     "static/css/main.9dc7321c.chunk.css.map": "/static/css/main.9dc7321c.chunk.css.map",
     "static/js/2.3cb0cb3a.chunk.js.LICENSE.txt": "/static/js/2.3cb0cb3a.chunk.js.LICENSE.txt",
-    "static/media/Express.932c502d.svg": "/static/media/Express.932c502d.svg",
-    "static/media/Html.6cbe59ff.svg": "/static/media/Html.6cbe59ff.svg",
     "static/media/IMG_2035.a8367cef.jpg": "/static/media/IMG_2035.a8367cef.jpg",
     "static/media/Instagram.5bd21899.png": "/static/media/Instagram.5bd21899.png",
-    "static/media/Jquery.cb7f7b83.svg": "/static/media/Jquery.cb7f7b83.svg",
-    "static/media/Mongodb.b30f4a67.svg": "/static/media/Mongodb.b30f4a67.svg",
-    "static/media/NodeJS.f5fed11b.svg": "/static/media/NodeJS.f5fed11b.svg",
     "static/media/OUTDoorsyimg.4a7486bc.JPG": "/static/media/OUTDoorsyimg.4a7486bc.JPG",
-    "static/media/React.969fc474.svg": "/static/media/React.969fc474.svg",
     "static/media/style.css": "/static/media/bodybg.514add8c.jpg",
-    "static/media/css.e61cc35a.svg": "/static/media/css.e61cc35a.svg",
     "static/media/cyclickgrindimg.1e51bd71.JPG": "/static/media/cyclickgrindimg.1e51bd71.JPG",
-    "static/media/javascript.ad2a7f81.svg": "/static/media/javascript.ad2a7f81.svg",
-    "static/media/mysql.6a14316d.svg": "/static/media/mysql.6a14316d.svg",
     "static/media/popqueryimg.c0f393d8.JPG": "/static/media/popqueryimg.c0f393d8.JPG",
     "static/media/pwGenImg.d303d63a.JPG": "/static/media/pwGenImg.d303d63a.JPG",
     "static/media/stormimg.cc697ced.JPG": "/static/media/stormimg.cc697ced.JPG"
@@ -35,6 +26,6 @@
     "static/css/2.44d809a4.chunk.css",
     "static/js/2.3cb0cb3a.chunk.js",
     "static/css/main.9dc7321c.chunk.css",
-    "static/js/main.236856bf.chunk.js"
+    "static/js/main.51557d2f.chunk.js"
   ]
 }
