@@ -1,14 +1,5 @@
 import "./style.css";
 import Profile from "../../assets/images/IMG_2035.jpg";
-import Html from "../../assets/images/Html.svg";
-import csIcon from "../../assets/images/css.svg";
-import Jscript from "../../assets/images/javascript.svg";
-import Jquery from "../../assets/images/Jquery.svg";
-import NodeJs from "../../assets/images/NodeJS.svg";
-import Express from "../../assets/images/Express.svg";
-import MySql from "../../assets/images/mysql.svg";
-import MongoDB from "../../assets/images/Mongodb.svg";
-import React from "../../assets/images/React.svg";
 
 export default function About() {
   return (
@@ -18,7 +9,7 @@ export default function About() {
           <h1>Enrilo M. Ugalde JR</h1>
           <hr></hr>
           <div className="content">
-            <b>Location: </b>San Diego  | <b>Phone# </b>
+            <b>Location: </b>San Diego | <b>Phone# </b>
             619-961-5190 | <b>EMAIL: </b> ENRILOUGALDE@GMAIL.COM
             <br />
             <div className="row">
@@ -26,7 +17,7 @@ export default function About() {
                 <img
                   src={Profile}
                   alt="Enrilo Ugalde Profile"
-                  className="float-left mr-1 ml-4"
+                  className="profile float-left mr-1 ml-4"
                 />
                 <b>
                   My journey from an Electronics Store Sales Associate to a
@@ -48,27 +39,185 @@ export default function About() {
                   development, and I look forward to the opportunities that lie
                   ahead.
                 </b>
-                <br></br>
-                <b>Front End:</b>
-                <br></br>
-                <img src={Html} alt="HTML" />,
-                <img src={csIcon} alt="CSS" />,
-                <img src={Jscript} alt="Javascrtip" />,
-                <img src={Jquery} alt="JQUERY" />,
-                <img src={React} alt="REACT" />
-                <br></br>
-                <b>Back End:</b>
-                <br></br>
-                <img src={NodeJs} alt="NodeJS" />,
-                <img src={Express} alt="Express" />,
-                <img src={MySql} alt="MYSQL" />,
-                <img src={MongoDB} alt="MONGODB" />.
-                <br />
                 <br />
                 <b>
                   “The mind is like an Umbrella, it only works when it is open”
                 </b>
                 <br /> - Sir James Jeans
+                <br />
+                <h5 align="center">Languages and Tools:</h5>
+                <div align="center">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    height="40"
+                    alt="javascript logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://skillicons.dev/icons?i=react"
+                    height="40"
+                    alt="react logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+                    height="40"
+                    alt="jest logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+                    height="40"
+                    alt="html5 logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+                    height="40"
+                    alt="css3 logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+                    height="40"
+                    alt="bootstrap logo"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg"
+                    height="40"
+                    alt="ruby logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain-wordmark.svg"
+                    height="40"
+                    alt="rails logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
+                    height="40"
+                    alt="firebase logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                    height="40"
+                    alt="nodejs logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    height="40"
+                    alt="express logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                    height="40"
+                    alt="mysql logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
+                    height="40"
+                    alt="postgresql logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"
+                    height="40"
+                    alt="mongodb logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg"
+                    height="40"
+                    alt="spring logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    height="40"
+                    alt="java logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://skillicons.dev/icons?i=postman"
+                    height="40"
+                    alt="postman logo"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rspec/rspec-original.svg"
+                    height="40"
+                    alt="rspec logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+                    height="40"
+                    alt="jest logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain-wordmark.svg"
+                    height="40"
+                    alt="circleci logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+                    height="40"
+                    alt="git logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    height="40"
+                    alt="github logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
+                    height="40"
+                    alt="docker logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codecov/codecov-plain.svg"
+                    height="40"
+                    alt="codecov logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                    height="40"
+                    alt="vscode logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                    height="40"
+                    alt="jira logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original-wordmark.svg"
+                    height="40"
+                    alt="eslint logo"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
+                    height="40"
+                    alt="androidstudio logo"
+                  />
+                  <img width="12" />
+                  <img
+                    src="https://skillicons.dev/icons?i=githubactions"
+                    height="40"
+                    alt="githubactions logo"
+                  />
+                </div>
               </p>
             </div>
           </div>
