@@ -11,3 +11,16 @@ body{
     background-position: top;
     background-size: contain;
 }
+/* Media query for iPhone */
+@media only screen and (max-device-width: 480px) {
+    body {
+        width: 100%;
+    }
+}
+
+/* Media query for PC */
+@media only screen and (min-width: 1024px) {
+    body {
+        width: 80%;
+    }
+}
