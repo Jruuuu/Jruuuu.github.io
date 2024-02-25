@@ -12,7 +12,7 @@ body{
     background-size: contain;
 }
 /* Media query for iPhone */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 428px) {
     body {
         width: 100%;
     }
