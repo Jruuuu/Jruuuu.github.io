@@ -10,3 +10,6 @@ p {
     background-color: rgba(253, 252, 249, 0.603);
     padding: 4%;
 }
+#language_and_tool img{
+    margin: .35em;
+}

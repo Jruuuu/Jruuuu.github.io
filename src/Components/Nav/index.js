@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
+import { Nav, Navbar} from "react-bootstrap";
 
 export default function App() {
   function findPos(obj) {
@@ -16,65 +15,40 @@ export default function App() {
 
   function scrollToSection(e) {
     window.scrollTo({
-      top: findPos(document.getElementById(e)),
+      top: findPos(document.getElementById(e)) ,
       left: 0,
       behavior: "smooth",
     });
   }
   return (
-    // <Nav className="justify-content-end" activeKey="/home">
-    // <Nav.Item>
-    //   <Nav.Link href="/home">Active</Nav.Link>
-    // </Nav.Item>
-    // <Nav.Item>
-    //   <Nav.Link eventKey="link-1">Link</Nav.Link>
-    // </Nav.Item>
-    // <Nav.Item>
-    //   <Nav.Link eventKey="link-2">Link</Nav.Link>
-    // </Nav.Item>
-    // </Nav>
-
-    <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
+    <Navbar expand="lg" className="bg-body-tertiary fixed-top">
       <button
-        className="navbar-brand js-scroll-trigger"
+        className="navbar-brand js-scroll-trigger mr-auto"
         onClick={() => scrollToSection("Main")}
         style={{ cursor: "default" }}
       >
         JR
       </button>
-      <button
-        className="navbar-toggler "
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav ml-auto">
-          <button  className="nav-link js-scroll-trigger"
-            onClick={() => scrollToSection("About")}
-            style={{ cursor: "default" }}>ABOUT</button>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <button
+              className="nav-link js-scroll-trigger"
+              onClick={() => scrollToSection("About")}
+              style={{ cursor: "default" }}
+            >
+              ABOUT
+            </button>
+            <button
+              className="nav-link  js-scroll-trigger"
+              onClick={() => scrollToSection("Portfolio")}
+              style={{ cursor: "default" }}
+            >
+              PORTFOLIO{" "}
+            </button>
+          </Nav>
+        </Navbar.Collapse>
+    </Navbar>
 
-          <button
-            className="nav-link  js-scroll-trigger"
-            onClick={() => scrollToSection("Portfolio")}
-            style={{ cursor: "default" }}
-          >
-            PORTFOLIO{" "}
-          </button>
-          {/* <button
-            className="nav-link js-scroll-trigger"
-            onClick={() => scrollToSection("")}
-            style={{ cursor: "default" }}
-          >
-            RESUME
-          </button> */}
-        </div>
-      </div>
-    </nav>
   );
 }

@@ -9,7 +9,7 @@ function App() {
     <footer className="footer text-center fixed-bottom mt-auto">
       <div className="mt-1 navbar-dark bg-light">
         <footer className="footer-copyright my-auto">
-          <a>copyright © 2024</a>
+          <small className="mr-2">copyright © 2024</small>
 
           <a
             className="navbar-brand"

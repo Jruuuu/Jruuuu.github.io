@@ -2,7 +2,7 @@
 import"./style.css";
 
 function findPos(obj) {
-  let curtop = -60;
+  let curtop = -50;
   if (obj.offsetParent) {
       do {            
           curtop += obj.offsetTop;
