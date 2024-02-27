@@ -8,14 +8,14 @@ import popquery from "../../assets/images/popqueryimg.JPG";
 
 export default function Portfolio() {
   return (
-    <div class="container" id="Portfolio">
+    <div className="container" id="Portfolio">
       <h1>PORTFOLIO</h1>
-      <div class="row">
+      <div className="row">
         <hr />
       </div>
       {/* FIVE PORTFOLIO PICS */}
-      <div class="row portfolio">
-        <div class="col-md-6 img-fluid">
+      <div className="row portfolio">
+        <div className="col-md-6 img-fluid">
           <h3>OUTDOORSY</h3>
           <hr />
           <a href="https://jruuuu.github.io/OUTDoorsy/">
@@ -32,7 +32,7 @@ export default function Portfolio() {
             </a>
           </Button>
         </div>
-        <div class="col-md-6 img-fluid">
+        <div className="col-md-6 img-fluid">
           <h3>Password Developer</h3>
           <hr />
           <a href="https://jruuuu.github.io/pwdeveloper/">
@@ -44,14 +44,14 @@ export default function Portfolio() {
             size="sm"
            align="center"
           >
-            <a href="https://github.com/Jruuuu/pwdeveloper" class="">
+            <a href="https://github.com/Jruuuu/pwdeveloper" className="">
               Github PW Developer Repo
             </a>
           </Button>
         </div>
       </div>
-      <div class="row portfolio">
-        <div class="col-md-6 img-fluid">
+      <div className="row portfolio">
+        <div className="col-md-6 img-fluid">
           <h3>CyCLICKGrind</h3>
           <hr />
           <a href="https://jruuuu.github.io/CyClickGrind/">
@@ -63,13 +63,13 @@ export default function Portfolio() {
             size="sm"
            align="center"
           >
-            <a href="https://github.com/Jruuuu/CyClickGrind" class="">
+            <a href="https://github.com/Jruuuu/CyClickGrind" className="">
               Github CyClickGrind Repo
             </a>
           </Button>
         </div>
 
-        <div class="col-md-6 img-fluid">
+        <div className="col-md-6 img-fluid">
           <h3>STORM</h3>
           <hr />
           <a href="https://jruuuu.github.io/storm/">
@@ -81,14 +81,14 @@ export default function Portfolio() {
             size="sm"
            align="center"
           >
-            <a href="https://github.com/Jruuuu/storm" class="">
+            <a href="https://github.com/Jruuuu/storm" className="">
               Github STORM Repo
             </a>
           </Button>
         </div>
       </div>
-      <div class="row portfolio">
-        <div class="col-md-6 img-fluid">
+      <div className="row portfolio">
+        <div className="col-md-6 img-fluid">
           <h3>Pop QUERY</h3>
           <hr />
           <a href="https://jruuuu.github.io/popquery/">
@@ -100,7 +100,7 @@ export default function Portfolio() {
             size="sm"
            align="center"
           >
-            <a href="https://github.com/Jruuuu/popquery" class="">
+            <a href="https://github.com/Jruuuu/popquery" className="">
               Github Pop Query Repo
             </a>
           </Button>

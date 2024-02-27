@@ -21,13 +21,13 @@ function scrollToSection(e) {
 export default function Main() {
   return (
     <div className="container welcome ">
-      <h2 class="wrap" contenteditable="true" id="Main">
+      <h2 className="wrap " id="Main">
         Hello World! I'm<span> JR,</span>
       </h2>
       <span className="text2">Take a Look Around</span>
       <br />
       <div className="dropdown">
-        <button className="dropbtn" aria-label="Drop Down Button">
+        <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -45,7 +45,7 @@ export default function Main() {
             </button>
             {/* <button onClick={()=>scrollToSection('Resume')} >RESUME</button> */}
           </div>
-        </button>
+        </div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ export default function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const element = document.getElementById('targetElement');
+      const element = document.getElementById("targetElement");
       const rect = element.getBoundingClientRect();
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
       if (scrollTop > rect.top) {
@@ -21,29 +21,30 @@ export default function App() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <div className="App">
-      {showNav && <Nav />}
-      <div id="targetElement">
-      <div className="Main">
-        <Main />
-      </div>
-      <div className="About">
-        <About />
-      </div>
+      <div className="background"/>
+        {showNav && <Nav />}
+        <div id="targetElement">
+          <div className="Main">
+            <Main />
+          </div>
+          <div className="About">
+            <About />
+          </div>
 
-      <div className="Portfolio">
-        <Portfolio />
-      </div>
+          <div className="Portfolio">
+            <Portfolio />
+          </div>
 
-      <Footer />
+          <Footer />
       </div>
     </div>
   );

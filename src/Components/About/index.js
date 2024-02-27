@@ -48,8 +48,10 @@ export default function About() {
                   </b>
                   <br /> - Sir James Jeans
                   <br />
+                  </p>
                   <div align="center" id="language_and_tool">
                     <h5 align="center">Languages and Tools:</h5>
+                  
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                       height="40"
@@ -200,7 +202,6 @@ export default function About() {
                       alt="githubactions logo"
                     />
                   </div>
-                </p>
               </div>
             </div>
           </div>
