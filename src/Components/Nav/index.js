@@ -21,7 +21,7 @@ export default function App() {
     });
   }
   return (
-    <Navbar expand="lg" className="bg-body-tertiary fixed-top">
+    <Navbar expand="lg" className="fixed-top">
       <button
         className="navbar-brand js-scroll-trigger mr-auto"
         onClick={() => scrollToSection("Main")}
